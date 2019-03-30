@@ -1,0 +1,32 @@
+[
+  {
+    "accId": 4944,
+    "maskedAccountNumber": "XXXXXX7400",
+    "mpinFlag": "N",
+    "ifscCode": "ICIC0001104",
+    "uPinLength": 0,
+    "bankId": 0,
+    "accountName": "Rohan Singh",
+    "bankCode": "ICIC"
+  },
+  {
+    "accId": 4922,
+    "maskedAccountNumber": "XXXXXX7400",
+    "mpinFlag": "N",
+    "ifscCode": "SBI0001104",
+    "uPinLength": 0,
+    "bankId": 0,
+    "accountName": "Rohan Singh",
+    "bankCode": "SBI"
+  },
+  {
+    "accId": 4933,
+    "maskedAccountNumber": "XXXXXX7400",
+    "mpinFlag": "N",
+    "ifscCode": "HDFC0001104",
+    "uPinLength": 0,
+    "bankId": 0,
+    "accountName": "Rohan Singh",
+    "bankCode": "HDFC"
+  }
+]

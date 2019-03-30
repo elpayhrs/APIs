@@ -1,0 +1,43 @@
+﻿{
+  "appVersionCode": 0,
+  "bankCode": "ICIC",
+
+  "userinfo": {
+    "defVPAStatus": "false",
+    "name": "Mohan Raj",
+    "accountId": 0,
+    "virtualAddress": "testmerchant123@sbi"
+  },
+
+  "deviceInfo": {
+
+    "androidId": "42e9fac8ef138a1b",
+    "appName": "com.sbi.upi.test",
+    "appVersionCode": "8",
+    "appVersionName": "2.0.3-Beta",
+    "bluetoothMac": "98:0C:A5:FD:24:70",
+    "capability": "5200000200010004000639292929292",
+    "deviceId": "981808033846111",
+    "deviceType": "MOB",
+    "geoCode": "19.0911 ,72.9208",
+    "ip": "172.16.50.178",
+    "location": "Mumbai",
+    "mobileNo": "919664234682",
+    "os": "Android5.1",
+    "regId": "NA",
+    "selectedSimSlot": "0",
+    "simId": "8991200050608312752",
+    "wifiMac": "48:88:ca:02:24:70",
+    "recoveryOptionFlag": 0
+  },
+
+  "requestInfo": {
+    "pspId": "201",
+    "pspRefNo": "SBIC236D58C42154F6FBC22715DD3D",
+    "profileId": "ardjasjo3248jrferjlj",
+    "requestType": "A",
+    "updateFlag": 0
+  }
+
+
+}

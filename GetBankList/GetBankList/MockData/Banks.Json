@@ -1,0 +1,38 @@
+[
+  {
+    "accId": 0,
+    "bankCode": "SBIN",
+    "bankId": 1,
+    "bankName": "State Bank Of India",
+    "canShowBalance": false,
+    "checkedAccount": false,
+    "uPinLength": 0
+  },
+  {
+    "accId": 0,
+    "bankCode": "ICIC",
+    "bankId": 2,
+    "bankName": "ICICI Bank",
+    "canShowBalance": false,
+    "checkedAccount": false,
+    "uPinLength": 0
+  },
+  {
+    "accId": 0,
+    "bankCode": "ANDB",
+    "bankId": 3,
+    "bankName": "Andra Bank",
+    "canShowBalance": false,
+    "checkedAccount": false,
+    "uPinLength": 0
+  },
+  {
+    "accId": 0,
+    "bankCode": "CANR",
+    "bankId": 4,
+    "bankName": "Canara Bank",
+    "canShowBalance": false,
+    "checkedAccount": false,
+    "uPinLength": 0
+  }
+]
