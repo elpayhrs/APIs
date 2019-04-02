@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WEBAPIModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="getbanklist">
+    <Key>
+      <PropertyRef Name="datestamp" />
+    </Key>
+    <Property Name="datestamp" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="apiname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="request" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="addInfo10" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="addInfo9" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="androidId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="appName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="appVersionCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="appVersionName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="bluetoothMac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="capability" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="deviceId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="deviceType" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="geoCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ip" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="location" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="mobileNo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="os" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="regId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="selectedSimSlot" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="simId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="wifiMac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="pspId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="pspRefNo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="profileId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="WEBAPIEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="getbanklists" EntityType="Self.getbanklist" />
+  </EntityContainer>
+</Schema>

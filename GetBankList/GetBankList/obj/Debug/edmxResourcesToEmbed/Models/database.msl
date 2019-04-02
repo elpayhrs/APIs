@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WEBAPIModelStoreContainer" CdmEntityContainer="WEBAPIEntities3">
+    <EntitySetMapping Name="getbanklists">
+      <EntityTypeMapping TypeName="WEBAPIModel.getbanklist">
+        <MappingFragment StoreEntitySet="getbanklist">
+          <ScalarProperty Name="datestamp" ColumnName="datestamp" />
+          <ScalarProperty Name="apiname" ColumnName="apiname" />
+          <ScalarProperty Name="request" ColumnName="request" />
+          <ScalarProperty Name="addInfo10" ColumnName="addInfo10" />
+          <ScalarProperty Name="addInfo9" ColumnName="addInfo9" />
+          <ScalarProperty Name="androidId" ColumnName="androidId" />
+          <ScalarProperty Name="appName" ColumnName="appName" />
+          <ScalarProperty Name="appVersionCode" ColumnName="appVersionCode" />
+          <ScalarProperty Name="appVersionName" ColumnName="appVersionName" />
+          <ScalarProperty Name="bluetoothMac" ColumnName="bluetoothMac" />
+          <ScalarProperty Name="capability" ColumnName="capability" />
+          <ScalarProperty Name="deviceId" ColumnName="deviceId" />
+          <ScalarProperty Name="deviceType" ColumnName="deviceType" />
+          <ScalarProperty Name="geoCode" ColumnName="geoCode" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="mobileNo" ColumnName="mobileNo" />
+          <ScalarProperty Name="os" ColumnName="os" />
+          <ScalarProperty Name="regId" ColumnName="regId" />
+          <ScalarProperty Name="selectedSimSlot" ColumnName="selectedSimSlot" />
+          <ScalarProperty Name="simId" ColumnName="simId" />
+          <ScalarProperty Name="wifiMac" ColumnName="wifiMac" />
+          <ScalarProperty Name="pspId" ColumnName="pspId" />
+          <ScalarProperty Name="pspRefNo" ColumnName="pspRefNo" />
+          <ScalarProperty Name="profileId" ColumnName="profileId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

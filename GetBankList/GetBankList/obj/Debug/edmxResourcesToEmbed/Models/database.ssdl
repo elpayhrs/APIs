@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WEBAPIModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="getbanklist">
+    <Key>
+      <PropertyRef Name="datestamp" />
+    </Key>
+    <Property Name="datestamp" Type="datetime" Nullable="false" />
+    <Property Name="apiname" Type="nvarchar" MaxLength="100" />
+    <Property Name="request" Type="nvarchar" MaxLength="100" />
+    <Property Name="addInfo10" Type="nvarchar" MaxLength="100" />
+    <Property Name="addInfo9" Type="nvarchar" MaxLength="100" />
+    <Property Name="androidId" Type="nvarchar" MaxLength="100" />
+    <Property Name="appName" Type="nvarchar" MaxLength="100" />
+    <Property Name="appVersionCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="appVersionName" Type="nvarchar" MaxLength="100" />
+    <Property Name="bluetoothMac" Type="nvarchar" MaxLength="100" />
+    <Property Name="capability" Type="nvarchar" MaxLength="100" />
+    <Property Name="deviceId" Type="nvarchar" MaxLength="100" />
+    <Property Name="deviceType" Type="nvarchar" MaxLength="100" />
+    <Property Name="geoCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="ip" Type="nvarchar" MaxLength="100" />
+    <Property Name="location" Type="nvarchar" MaxLength="100" />
+    <Property Name="mobileNo" Type="nvarchar" MaxLength="100" />
+    <Property Name="os" Type="nvarchar" MaxLength="100" />
+    <Property Name="regId" Type="nvarchar" MaxLength="100" />
+    <Property Name="selectedSimSlot" Type="nvarchar" MaxLength="100" />
+    <Property Name="simId" Type="nvarchar" MaxLength="100" />
+    <Property Name="wifiMac" Type="nvarchar" MaxLength="100" />
+    <Property Name="pspId" Type="nvarchar" MaxLength="100" />
+    <Property Name="pspRefNo" Type="nvarchar" MaxLength="100" />
+    <Property Name="profileId" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="WEBAPIModelStoreContainer">
+    <EntitySet Name="getbanklist" EntityType="Self.getbanklist" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

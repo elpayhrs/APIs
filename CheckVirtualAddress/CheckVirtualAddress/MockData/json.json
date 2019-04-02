@@ -1,0 +1,34 @@
+﻿{
+    "deviceInfo": {
+    "androidId": "72aa67e5163047d5",
+    "appName": "com.sbi.upi",
+    "appVersionCode": "1",
+    "appVersionName": "1",
+    "bluetoothMac": "22:22:65:CE:FD:C1",
+    "capability": "5200000200010004000639292929292",
+    "deviceId": "355924072430939",
+    "deviceType": "MOB",
+    "geoCode": "19.0911,72.9208",
+    "ip": "127.0.0.1",
+    "location": "Mumbai",
+    "mobileNo": "919768580560",
+    "os": "Android6.0.1",
+    "regId": "NA",
+    "selectedSimSlot": "0",
+    "simId": "8991000900877608326",
+    "wifiMac": "02:00:00:00:00:00"
+  },
+  "addInfo": {
+    "addInfo10": "NA",
+    "addInfo9": "NA"
+  },
+  "payeeType": {
+    "virtualAddress": "chetanb@sbi"
+  },
+  "requestInfo": {
+    "pspId": "201",
+    "pspRefNo": "SBI8D12B5F11B49445080332C39C2C",
+    "profileId": "ardjasjo3248jrferjlj",
+    "vAReqType": "T"
+  }
+}

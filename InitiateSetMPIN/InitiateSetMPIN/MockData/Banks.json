@@ -1,0 +1,25 @@
+﻿[
+  {
+    "credentialDataType": "NUM",
+    "credentialDataLength": 4,
+    "atmCrdLength": 0,
+    "otpCrdLength": 6,
+    "otpCrdType": "NUM"
+  },
+
+  {
+    "credentialDataType": "NUM",
+    "credentialDataLength": 5,
+    "atmCrdLength": 0,
+    "otpCrdLength": 6,
+    "otpCrdType": "NUM"
+  },
+    
+  {
+     "credentialDataType" : "NUM",
+       "credentialDataLength" : 6,
+       "atmCrdLength" : 0,
+       "otpCrdLength" :6,
+       "otpCrdType": "NUM"
+  }
+]
